@@ -1,0 +1,32 @@
+<?xml version="1.0"?>
+<ruleset name="WordPress Coding Standards">
+    <description>WordPress Coding Standards for WordPress Bangkok 2025 plugin.</description>
+
+    <arg name="basepath" value="."/>
+    <arg name="extensions" value="php"/>
+    <arg name="tab-width" value="4"/>
+
+    <!-- Ignore warnings, show progress of the run and show sniff names -->
+    <arg value="nps"/>
+
+    <!-- The directories to apply the rules -->
+    <file>wordcamp-bangkok-2025.php</file>
+
+    <!-- Use the WordPress Coding Standards -->
+    <rule ref="WordPress" />
+    <rule ref="PHPCompatibilityWP"/>
+    <rule ref="WordPress.WP.I18n">
+      <properties>
+        <property name="text_domain" type="array">
+          <element value="wordcamp-bangkok-2025"/>
+        </property>
+      </properties>
+    </rule>
+
+    <!-- Exclude common build and vendor directories -->
+    <exclude-pattern>vendor/*</exclude-pattern>
+    <exclude-pattern>build/*</exclude-pattern>
+    <exclude-pattern>node_modules/*</exclude-pattern>
+    <exclude-pattern>*.min.js</exclude-pattern>
+    <exclude-pattern>*.min.css</exclude-pattern>
+</ruleset>

@@ -1,0 +1,8 @@
+parameters:
+  level: 8
+  paths:
+    - wordcamp-bangkok-2025.php
+
+  ## johnbillion/wp-compat
+  WPCompat:
+    requiresAtLeast: '6.0'

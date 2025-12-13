@@ -1,0 +1,43 @@
+# Thai translation for WordCamp Bangkok 2025
+msgid ""
+msgstr ""
+"Project-Id-Version: WordCamp Bangkok 2025 0.0.1\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/wordcamp-bangkok-2025\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: Thai <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2025-12-12T08:10:58+00:00\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"X-Generator: WP-CLI 2.12.0\n"
+"X-Domain: wordcamp-bangkok-2025\n"
+"Language: th\n"
+
+#. Plugin Name of the plugin
+#: bangkok-2025.php
+msgid "WordCamp Bangkok 2025"
+msgstr "เวิร์ดแคมป์กรุงเทพฯ 2025"
+
+#. Description of the plugin
+#: bangkok-2025.php
+msgid "A very simple WordPress plugin with assets built using modern WordPress toolings."
+msgstr "ปลั๊กอินเวิร์ดเพรสที่เรียบง่ายมาก พร้อมไฟล์ประกอบที่สร้างด้วยเครื่องมือเวิร์ดเพรสสมัยใหม่"
+
+#. Author of the plugin
+#: bangkok-2025.php
+msgid "Thoriq Firdaus"
+msgstr "โธริค เฟอร์เดาส์"
+
+#: bangkok-2025.php:43
+#: bangkok-2025.php:44
+msgid "Bangkok 2025"
+msgstr "กรุงเทพฯ 2025"
+
+#: src/index.js:8
+msgid "This is a simple plugin admin page from \"WordCamp Bangkok 2025\" plugin."
+msgstr "นี่คือหน้าผู้ดูแลปลั๊กอินอย่างง่ายจากปลั๊กอิน \"เวิร์ดแคมป์กรุงเทพฯ 2025\""
+
+#: src/index.js:10
+msgid "Click here!"
+msgstr "คลิกที่นี่!"

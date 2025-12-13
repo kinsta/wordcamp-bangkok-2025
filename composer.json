@@ -1,0 +1,37 @@
+{
+  "name": "kinsta/wordcamp-bangkok-2025",
+  "description": "A very simple WordPress plugin with assets built using modern WordPress toolings.",
+  "type": "project",
+  "license": "GPL-2.0-or-later",
+  "authors": [
+    {
+      "name": "Thoriq Firdaus",
+      "email": "2067467+tfirdaus@users.noreply.github.com"
+    }
+  ],
+  "minimum-stability": "stable",
+  "require-dev": {
+    "dealerdirect/phpcodesniffer-composer-installer": "^1.0",
+    "johnbillion/wp-compat": "^1.4",
+    "phpcompatibility/phpcompatibility-wp": "^2.1",
+		"phpstan/phpstan": "^2.1",
+    "phpstan/extension-installer": "^1.4",
+    "squizlabs/php_codesniffer": "^3.7",
+    "wp-cli/i18n-command": "^2.6",
+    "wp-coding-standards/wpcs": "^3.0",
+    "szepeviktor/phpstan-wordpress": "^2.0"
+  },
+  "scripts": {
+    "phpcs": "phpcs",
+    "phpcs:fix": "phpcbf",
+    "phpstan": "phpstan --memory-limit=1024M",
+    "make-mo": "wp i18n make-mo lang",
+    "make-pot": "wp i18n make-pot --exclude=vendor,dist,build . lang/wordcamp-bangkok-2025.pot"
+  },
+  "config": {
+    "allow-plugins": {
+      "dealerdirect/phpcodesniffer-composer-installer": true,
+      "phpstan/extension-installer": true
+    }
+  }
+}
