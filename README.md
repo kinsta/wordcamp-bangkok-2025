@@ -1,6 +1,6 @@
 # WP Scripts Example
 
-A very simple WordPress plugin with JavaScript and CSS assets built using [@wordpress/scripts](https://developer.wordpress.org/block-editor/reference-guides/packages/packages-scripts/).
+A very simple WordPress plugin with WordPress modern tools such as [@wordpress/scripts](https://developer.wordpress.org/block-editor/reference-guides/packages/packages-scripts/), [@wordpress/env](https://developer.wordpress.org/block-editor/reference-guides/packages/packages-env/), etc.
 
 ## Development
 
