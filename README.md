@@ -1,4 +1,4 @@
-# WP Scripts Example
+# WordCamp Bangkok 2025
 
 A very simple WordPress plugin with WordPress modern tools such as [@wordpress/scripts](https://developer.wordpress.org/block-editor/reference-guides/packages/packages-scripts/), [@wordpress/env](https://developer.wordpress.org/block-editor/reference-guides/packages/packages-env/), etc.
 
